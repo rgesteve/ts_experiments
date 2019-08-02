@@ -1,0 +1,21 @@
+{
+  "name": "tsdeffile",
+  "version": "0.0.1",
+  "description": "Trying to write a ts definition file",
+  "main": "index.js",
+  "scripts": {
+      "build": "npx tsc",
+      "clean" : "npx rimraf out",
+      "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "R. G. Esteves",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^2.6.3",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "node-wget-promise": "^0.1.6"
+  }
+}
